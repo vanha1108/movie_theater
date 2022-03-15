@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/promotion.css">
+    <title>Add new promotion</title>
+</head>
+<body>
+    <header >
+        <div id="header">
+            <div class="header_container container">
+                <a href="index.html/#header" class = "header_logo">
+                    <img src="image/logo-image/Movie star-logo-white.png" 
+                        alt="Logo_phimmoi" class="header_logo-img">
+                </a>
+                <form action="" class = "header__form-search">
+                    <div class="header_search">
+                        <input class= "header_seacrh-input" type="text" placeholder ="Input keyword to search...">
+                        <i class="fa fa-search header_search-icon" aria-hidden="true"></i>
+                    </div>
+                </form>
+                <a class = "header_login" href="login.html">Login/Register</a>
+            </div>
+        </div>
+    </header>
+
+    <nav id="nav">
+        <div class="nav__container container">
+            <a href="" class="nav_container-link">
+                ACCOUNT MANAGEMENT
+            </a>
+            <a href="" class="nav_container-link">
+                EMPLOYEE MANAGEMENT
+            </a>
+            <a href="" class="nav_container-link">
+                ROOM MANAGEMENT
+            </a>
+            <a href="" class="nav_container-link">
+                TICKET SELLING MANAGEMENT
+            </a>
+            <a href="" class="nav_container-link">
+                TIKET BOOKING MANAGEMENT
+            </a>
+            <a href="" class="nav_container-link">
+                MOVIE MANAGEMENT
+            </a>
+            <a href="" class="nav_container-link">
+                PROMOTION MANAGEMENT
+            </a>
+    </nav>       
+        </div>
+        
+    <main>
+        
+        <h4 class="text-center mt-4 mb-4">Add new movie</h4>
+        <div class="form-container">
+            <form action=" ">
+                <div class="form-group">
+                    <label for="movienameenglish">Movie name (ENG)</label>
+                    <input type="text" class="form-control" id="movienameenglish" placeholder="Enter name (ENG)" name="movienameenglish">
+                </div>
+                <div class="form-group">
+                    <label for="movienamevn">Movie name (VN)</label>
+                    <input type="date" class="form-control" id="movienamevn" placeholder="Enter name (VN)" name="movienamevn">
+                </div>
+                <div class="form-group">
+                    <label for="fromdate">From date:</label>
+                    <input type="date" class="form-control" id="fromdate" placeholder="Enter from date" name="fromdate">
+                </div>
+                <div class="form-group">
+                    <label for="todate">To date:</label>
+                    <input type="date" class="form-control" id="todate" placeholder="Enter to date" name="todate">
+                </div>
+                <div class="form-group">
+                    <label for="actor">Actor:</label>
+                    <input type="text" class="form-control" id="actor" placeholder="Enter actor" name="actor">
+                </div>
+                <div class="form-group">
+                    <label for="movieproductcompany">Movie product company:</label>
+                    <input type="text" class="form-control" id="movieproductcompany" placeholder="Enter movie product company" name="movieproductcompany">
+                </div>
+                <div class="form-group">
+                    <label for="director">Director:</label>
+                    <input type="text" class="form-control" id="director" placeholder="Enter director" name="director">
+                </div>
+                <div class="form-group">
+                    <label for="duration">Duration:</label>
+                    <input type="number" class="form-control" id="duration" placeholder="Enter duration" name="duration">
+                </div>
+                <div class="form-group">
+                    <label for="version">Version:</label>
+                    <input type="text" class="form-control" id="version" placeholder="Enter version" name="version">
+                </div>
+                <div class="form-group container">
+                    <div class="form-sub-group mr-5">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Hành động" >Hành động
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Hài hước" >Hài hước
+                        </div>
+                    
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Lãng mạn" >Lãng mạn
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Tình cảm" >Tình cảm
+                        </div>
+                    </div>
+                    <div class="form-sub-group mr-5">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Viễn tưởng" >Viễn tưởng
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Chiến tranh" >Chiến tranh
+                        </div>
+                    
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Kiếm hiệp" >Kiếm hiệp
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Âm nhạc" >Âm nhạc
+                        </div>
+                    </div>
+                    <div class="form-sub-group mr-5">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Kinh dị" >Kinh dị
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Phiêu lưu" >Phiêu lưu
+                        </div>
+                    
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Tâm lý 18+" >Tâm lý 18+
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="typeName" value="Hoạt hình" >Hoạt hình
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="version">Cinema Room:</label>
+                    <select class="custom-select" name = "cinemaroom">
+                        <option value="" disabled selected>Choose cinema Room</option>
+                        <option value="1">Cinema Room 1</option>
+                        <option value="2">Cinema Room 2</option>
+                        <option value="3">Cinema Room 3</option>
+                    </select>
+                </div>
+                <div class="form-group container">
+                    <div class="form-sub-group mr-5">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="08:00" >08:00
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="09:00" >09:00
+                        </div>
+                    
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="10:00" >10:00
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="11:00" >11:00
+                        </div>
+                    </div>
+                    <div class="form-sub-group mr-5">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="13:30" >13:30
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="14:30" >14:30
+                        </div>
+                    
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="15:00" >15:00
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="17:00" >17:00
+                        </div>
+                    </div>
+                    <div class="form-sub-group mr-5">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="18:30" >18:30
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="19:00" >19:00
+                        </div>
+                    
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="20:00" >20:00
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="schedule" value="21:00" >21:00
+                        </div>
+                    </div>
+                </div>  
+                <div class="form-group">
+                    <label for="version">Content: </label>
+                    <textarea type="text" class="form-control" placeholder="Enter content" name="content"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image:</label>
+                    <input type="file" class="form-control" id="image" placeholder="Không có tệp nào được chọn" name="image">
+                </div>
+
+                
+                <div class="col-md-8">
+                    <button id="submit" name="submit" class="btn btn-primary" value="1">Save</button>
+                    <button id="cancel" name="cancel" class="btn btn-primary" value="1">Back</button>
+                </div>
+            </form>
+        </div>              
+            
+        
+    </main>
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="footer__container-logo">
+                <img src="image/logo-image/Movie star-logo-white.png" alt="">
+            </div>
+            <p class = "footer__copyright">Copyright &copy; 2022 by Team 1 - FJB04. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+    
+
+</body>
+</html>
